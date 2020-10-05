@@ -1,1 +1,1 @@
-select * from instant_analytics.user_selection
+select * from some_schema.some_table
