@@ -1,0 +1,10 @@
+1. Understand the business problem. (Spend some time on understanding what is good result)
+1.5 Benchmark
+2. Gather as much as data(features) as possible unless really makes no sense
+3. Do feature engineering and transformations to get one table with one row per observation. (Use features that beeline already has and try featuretools library)
+4. If classification use Catboost, if regression use Ngboost or Catboost as algorithm. Train model.
+5. Choose features that are important. Use feature importance or permutation importance, or SHAP.
+6. Tune. Save best model.
+7. Work on predict pipe
+8. Wrap everything into docker.
+9. Push to prod.

@@ -1,0 +1,1 @@
+select * from instant_analytics.user_selection

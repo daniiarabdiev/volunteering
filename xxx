@@ -1,0 +1,19 @@
+Train pipe
+1. Get data from database (Done)
+2. Merge and transform data (DOne)
+3. Train
+4. Save best one
+
+Predict Pipe
+1. Get data from database
+2. Merge and transform data
+3. Predict using saved model
+4. Push data to database
+4. Wrap everything in docker
+6. Push to prod
+
+
+host=
+database=
+password=
+username=
